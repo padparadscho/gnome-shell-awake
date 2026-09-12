@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-    <schema path="/org/gnome/shell/extensions/awake/" id="org.gnome.shell.extensions.awake">
+	<schema path="/org/gnome/shell/extensions/awake/" id="org.gnome.shell.extensions.awake">
 		<key type="b" name="enable-notifications">
 			<default>false</default>
 			<summary>Enable notifications</summary>
@@ -15,6 +15,11 @@
 			<default>false</default>
 			<summary>Enable MPRIS</summary>
 			<description>Keep the device awake while an application is playing media</description>
+		</key>
+		<key type="i" name="countdown-timer">
+			<default>0</default>
+			<summary>Countdown timer</summary>
+			<description>Timer duration in seconds, or 0 for always on</description>
 		</key>
 	</schema>
 </schemalist>
