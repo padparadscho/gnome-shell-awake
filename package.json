@@ -1,0 +1,24 @@
+{
+	"name": "gnome-shell-awake",
+	"version": "0.1.0",
+	"description": "GNOME Shell extension for preventing the device from going to sleep",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"check": "biome check --write",
+		"format": "biome format --write",
+		"lint": "biome lint --write"
+	},
+	"author": "Padparadscho <contact@padparadscho.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/padparadscho/gnome-shell-awake.git"
+	},
+	"bugs": "https://github.com/padparadscho/gnome-shell-awake/issues",
+	"homepage": "https://github.com/padparadscho/gnome-shell-awake#readme",
+	"license": "AGPL-3.0-only",
+	"devDependencies": {
+		"@biomejs/biome": "2.5.13"
+	},
+	"packageManager": "pnpm@12.4.1"
+}
