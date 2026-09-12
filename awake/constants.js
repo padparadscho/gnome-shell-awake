@@ -19,3 +19,18 @@ export const MPRIS_INTERFACE = `<node>
 		<property name="PlaybackStatus" type="s" access="read"/>
 	</interface>
 </node>`;
+
+export const SESSION_MANAGER_INTERFACE = `<node>
+	<interface name="org.gnome.SessionManager">
+		<method name="Inhibit">
+			<arg type="s" direction="in"/>
+			<arg type="u" direction="in"/>
+			<arg type="s" direction="in"/>
+			<arg type="u" direction="in"/>
+			<arg type="u" direction="out"/>
+		</method>
+		<method name="Uninhibit">
+			<arg type="u" direction="in"/>
+		</method>
+	</interface>
+</node>`;
