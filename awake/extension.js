@@ -3,8 +3,15 @@
 
 import { Extension } from "resource:///org/gnome/shell/extensions/extension.js";
 
-export default class AwakeExtension extends Extension {
-	enable() {}
+import { AwakeIndicator } from "./ui/indicator.js";
 
-	disable() {}
+export default class AwakeExtension extends Extension {
+	enable() {
+		this._indicator = new AwakeIndicator(this);
+	}
+
+	disable() {
+		this._indicator.destroy();
+		this._indicator = null;
+	}
 }
