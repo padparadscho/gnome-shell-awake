@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/org/gnome/shell/extensions/awake/" id="org.gnome.shell.extensions.awake">
+		<key type="b" name="enable-notifications">
+			<default>false</default>
+			<summary>Enable notifications</summary>
+			<description>Show a notification when the extension is enabled or disabled</description>
+		</key>
+		<key type="b" name="enable-timer">
+			<default>false</default>
+			<summary>Enable timer</summary>
+			<description>Show the remaining time in the top panel while the timer is running</description>
+		</key>
+		<key type="b" name="enable-mpris">
+			<default>false</default>
+			<summary>Enable MPRIS</summary>
+			<description>Keep the device awake while an application is playing media</description>
+		</key>
+	</schema>
+</schemalist>
