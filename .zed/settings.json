@@ -1,0 +1,15 @@
+{
+	"format_on_save": "on",
+	"formatter": {
+		"external": {
+			"command": "npx",
+			"arguments": [
+				"--no-install",
+				"biome",
+				"format",
+				"--stdin-file-path",
+				"{buffer_path}"
+			]
+		}
+	}
+}
