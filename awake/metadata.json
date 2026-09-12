@@ -1,0 +1,10 @@
+{
+	"name": "Awake",
+	"description": "GNOME Shell extension for preventing the device from going to sleep.",
+	"version": "1",
+	"version-name": "0.0.1",
+	"uuid": "awake@padparadscho.com",
+	"shell-version": ["50"],
+	"url": "https://github.com/padparadscho/gnome-shell-awake",
+	"settings-schema": "org.gnome.shell.extensions.awake"
+}
